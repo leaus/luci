@@ -13,7 +13,7 @@ LUCI_TITLE:=Standard OpenWrt set including full admin with ppp support and the d
 LUCI_DEPENDS:= \
 	+uhttpd +uhttpd-mod-ubus +luci-mod-admin-full +luci-theme-netgear \
 	+luci-app-firewall +luci-proto-ppp +libiwinfo-lua \
-	+rpcd-mod-rrdns +luci-app-passwall
+	+rpcd-mod-rrdns +luci-app-passwall luci-app-openvpn-server luci-app-openvpn
 
 PKG_LICENSE:=Apache-2.0
 
